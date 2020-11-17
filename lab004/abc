@@ -1,0 +1,200 @@
+
+push 1
+MyQueue : 1 
+rear=1, front=0
+
+push 2
+MyQueue : 1 2 
+rear=2, front=0
+
+pop
+MyQueue : 2 
+rear=2, front=1
+
+pop
+MyQueue : 
+rear=2, front=2
+
+pop
+java.lang.Exception: Queue is empty. Cannot delete.
+MyQueue : 
+rear=2, front=2
+
+push 3
+MyQueue : 3 
+rear=3, front=2
+
+pop
+MyQueue : 
+rear=3, front=3
+
+push 10
+MyQueue : 10 
+rear=4, front=3
+
+push 11
+MyQueue : 10 11 
+rear=5, front=3
+
+push 12
+MyQueue : 10 11 12 
+rear=6, front=3
+
+pop
+MyQueue : 11 12 
+rear=6, front=4
+
+push 13
+MyQueue : 11 12 13 
+rear=0, front=4
+
+push 16
+MyQueue : 11 12 13 16 
+rear=1, front=4
+
+push 17
+MyQueue : 11 12 13 16 17 
+rear=2, front=4
+
+push 7
+MyQueue : 11 12 13 16 17 7 
+rear=3, front=4
+
+push 14
+java.lang.Exception: Queue is Full
+MyQueue : 11 12 13 16 17 7 
+rear=3, front=4
+
+pop
+MyQueue : 12 13 16 17 7 
+rear=3, front=5
+
+pop
+MyQueue : 13 16 17 7 
+rear=3, front=6
+
+push 20
+MyQueue : 13 16 17 7 20 
+rear=4, front=6
+
+push 21
+MyQueue : 13 16 17 7 20 21 
+rear=5, front=6
+
+pop
+MyQueue : 16 17 7 20 21 
+rear=5, front=0
+
+push 22
+MyQueue : 16 17 7 20 21 22 
+rear=6, front=0
+
+push 8
+java.lang.Exception: Queue is Full
+MyQueue : 16 17 7 20 21 22 
+rear=6, front=0
+
+push 9
+java.lang.Exception: Queue is Full
+MyQueue : 16 17 7 20 21 22 
+rear=6, front=0
+
+pop
+MyQueue : 17 7 20 21 22 
+rear=6, front=1
+
+push 18
+MyQueue : 17 7 20 21 22 18 
+rear=0, front=1
+
+pop
+MyQueue : 7 20 21 22 18 
+rear=0, front=2
+
+push 23
+MyQueue : 7 20 21 22 18 23 
+rear=1, front=2
+
+pop
+MyQueue : 20 21 22 18 23 
+rear=1, front=3
+
+push 4
+MyQueue : 20 21 22 18 23 4 
+rear=2, front=3
+
+pop
+MyQueue : 21 22 18 23 4 
+rear=2, front=4
+
+push 5
+MyQueue : 21 22 18 23 4 5 
+rear=3, front=4
+
+push 6
+java.lang.Exception: Queue is Full
+MyQueue : 21 22 18 23 4 5 
+rear=3, front=4
+
+pop
+MyQueue : 22 18 23 4 5 
+rear=3, front=5
+
+pop
+MyQueue : 18 23 4 5 
+rear=3, front=6
+
+push 24
+MyQueue : 18 23 4 5 24 
+rear=4, front=6
+
+push 15
+MyQueue : 18 23 4 5 24 15 
+rear=5, front=6
+
+pop
+MyQueue : 23 4 5 24 15 
+rear=5, front=0
+
+push 25
+MyQueue : 23 4 5 24 15 25 
+rear=6, front=0
+
+push 26
+java.lang.Exception: Queue is Full
+MyQueue : 23 4 5 24 15 25 
+rear=6, front=0
+
+push 27
+java.lang.Exception: Queue is Full
+MyQueue : 23 4 5 24 15 25 
+rear=6, front=0
+
+pop
+MyQueue : 4 5 24 15 25 
+rear=6, front=1
+
+pop
+MyQueue : 5 24 15 25 
+rear=6, front=2
+
+push 28
+MyQueue : 5 24 15 25 28 
+rear=0, front=2
+
+pop
+MyQueue : 24 15 25 28 
+rear=0, front=3
+
+pop
+MyQueue : 15 25 28 
+rear=0, front=4
+
+push 29
+MyQueue : 15 25 28 29 
+rear=1, front=4
+
+push 30
+MyQueue : 15 25 28 29 30 
+rear=2, front=4
+
